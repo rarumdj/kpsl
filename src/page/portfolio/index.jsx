@@ -22,7 +22,10 @@ const Portfolio = () => {
               <div className="p-4">
                 <div className="text-lg mt-2">
                   <span className="text-white p-2 font-bold rounded-l">
-                    Completed Projects &gt;
+                    Completed Projects
+                    <span className="ml-2 inline-block transition-transform duration-200 group-hover:translate-x-2">
+                      &gt;
+                    </span>
                   </span>
                 </div>
               </div>
@@ -50,7 +53,10 @@ const Portfolio = () => {
               <div className="p-4">
                 <div className="text-lg mt-2">
                   <span className="text-white p-2 font-bold rounded-l">
-                    Incoming Projects &gt;
+                    Incoming Projects
+                    <span className="ml-2 inline-block transition-transform duration-200 group-hover:translate-x-2">
+                      &gt;
+                    </span>
                   </span>
                 </div>
               </div>

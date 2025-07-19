@@ -33,7 +33,10 @@ const CompletedProjects = () => {
                   <div className="p-4">
                     <div className="text-lg mt-2">
                       <span className="text-white font-bold rounded-l">
-                        Bayelsa State New Commissioners Quarters &gt;
+                        Bayelsa State New Commissioners Quarters
+                        <span className="ml-2 inline-block transition-transform duration-200 group-hover:translate-x-2">
+                          &gt;
+                        </span>
                       </span>
                     </div>
                   </div>
@@ -47,7 +50,10 @@ const CompletedProjects = () => {
                   <div className="p-4">
                     <div className="text-lg mt-2">
                       <span className="text-white font-bold rounded-l">
-                        COZA Ilorin New Auditorium &gt;
+                        COZA Ilorin New Auditorium
+                        <span className="ml-2 inline-block transition-transform duration-200 group-hover:translate-x-2">
+                          &gt;
+                        </span>
                       </span>
                     </div>
                   </div>
