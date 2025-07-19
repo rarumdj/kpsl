@@ -41,7 +41,7 @@ const About = () => {
             </h1>
 
             <p class="leading-relaxed">
-              KPSL, a division of Koe Procurement and Services Limited, is a
+              KPSL, a division of Gopolo Nigeria Limited, is a
               fully indigenous and limited liability company based in Nigeria.
               KPSL is an Engineering Procurement Contractor (EPC) company that
               specializes in providing services to the Oil and Gas industry.
@@ -114,6 +114,24 @@ const About = () => {
         </div>
         <div class="lg:w-4/5 container mx-auto flex flex-wrap w-full">
           <div className="grid md:grid-cols-3 gap-4 w-full mt-10 text-white mx-auto">
+             {/*  */}
+             <div className="flex flex-col items-center w-full max-w-xs space-y-3 p-4 pb-8 mx-auto bg-white rounded-md">
+              <div className="bg-construction bg-center bg-cover min-h-[155px] w-full rounded-lg relative">
+                <div className="absolute left-1/2 transform -translate-x-1/2 translate-y-4 bottom-0">
+                  <div
+                    className="p-2 bg-gray-300 rounded-md flex items-center cursor-pointer"
+                    onClick={() => navigate("/constructions")}>
+                    <div className="bg-primary p-1 rounded-md mr-2">
+                      <Building size="20" color="#FF8A65" />
+                    </div>
+                    <p className="text-sm leading-none text-primary">
+                      Construction/Civil Engineering
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
             <div className="flex flex-col items-center w-full max-w-xs space-y-3 p-4 pb-8 mx-auto bg-white rounded-md">
               <div className="bg-oil_gas bg-center bg-cover min-h-[155px] w-full rounded-lg relative">
                 <div className="absolute left-1/2 transform -translate-x-1/2 translate-y-4 bottom-0">
@@ -164,23 +182,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/*  */}
-            <div className="flex flex-col items-center w-full max-w-xs space-y-3 p-4 pb-8 mx-auto bg-white rounded-md">
-              <div className="bg-construction bg-center bg-cover min-h-[155px] w-full rounded-lg relative">
-                <div className="absolute left-1/2 transform -translate-x-1/2 translate-y-4 bottom-0">
-                  <div
-                    className="p-2 bg-gray-300 rounded-md flex items-center cursor-pointer"
-                    onClick={() => navigate("/constructions")}>
-                    <div className="bg-primary p-1 rounded-md mr-2">
-                      <Building size="20" color="#FF8A65" />
-                    </div>
-                    <p className="text-sm leading-none text-primary">
-                      Construction/Civil Engineering
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
             {/*  */}
             <div className="flex flex-col items-center w-full max-w-xs space-y-3 p-4 pb-8 mx-auto bg-white rounded-md">
               <div className="bg-water_project bg-center bg-cover min-h-[155px] w-full rounded-lg relative">

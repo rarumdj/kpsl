@@ -1,7 +1,6 @@
-import { Construction, Housing } from "assets/image";
+import { Housing } from "assets/image";
 import classNames from "classnames";
 import { ArrowLeft } from "iconsax-react";
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const GeneralContract = () => {

@@ -190,8 +190,8 @@ export const Kenya = (props) => (
 
 export const WhiteLogo = (props) => (
   <svg
-    width="98"
-    height="45"
+    width="158"
+    height="105"
     viewBox="0 0 98 45"
     fill="none"
     {...props}

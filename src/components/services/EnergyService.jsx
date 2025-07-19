@@ -1,7 +1,6 @@
-import { Construction, Renewable } from "assets/image";
+import { Renewable } from "assets/image";
 import classNames from "classnames";
 import { ArrowLeft } from "iconsax-react";
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const EnergyService = () => {

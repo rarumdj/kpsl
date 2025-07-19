@@ -1,6 +1,5 @@
-import { Hero_img, Hero_img_mobile, backedby, map_img } from "assets/image";
 import classNames from "classnames";
-import { ArrowRight, Check, TickCircle } from "iconsax-react";
+import { ArrowRight, TickCircle } from "iconsax-react";
 
 const Hero = () => {
   return (

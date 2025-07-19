@@ -1,7 +1,6 @@
 import { Construction } from "assets/image";
 import classNames from "classnames";
-import { ArrowLeft, ArrowRight } from "iconsax-react";
-import React from "react";
+import { ArrowLeft } from "iconsax-react";
 import { useNavigate } from "react-router-dom";
 
 const Services = () => {

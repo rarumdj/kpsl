@@ -1,9 +1,8 @@
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { Logo } from "assets/icons";
 import classNames from "classnames";
-import { useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, CloseCircle, HambergerMenu, Menu } from "iconsax-react";
+import { CloseCircle, HambergerMenu } from "iconsax-react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
