@@ -39,12 +39,18 @@ const CompletedProjects = () => {
                         </span>
                       </span>
                     </div>
+                    <p className="text-white/90 text-sm leading-relaxed">
+                      Comprising 40units of 5bedroom duplexes located at New
+                      Yenagoa City, Bayelsa State
+                    </p>
                   </div>
                 </div>
               </div>
               {/*  */}
               <div
-                onClick={() => null}
+                onClick={() =>
+                  navigate("/completed-projects/coza-ilorin-new-auditorium")
+                }
                 className="flex flex-col rounded-md overflow-hidden items-center w-full max-w-full space-y-3 p-4 pb-8 bg-kpsl_coza_thumb bg-center bg-cover min-h-[300px] relative group cursor-pointer">
                 <div className="h-fit w-full absolute bottom-0 bg-primary/70 flex items-start">
                   <div className="p-4">

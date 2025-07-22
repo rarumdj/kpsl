@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-10 md:mt-0">
-            <h2 className="mb-3 text-lg font-bold text-white">Contact</h2>
+            <h2 className="mb-3 text-lg !font-bold text-white">Contact</h2>
             <nav className="mb-10 list-none space-y-2 text-sm font-normal">
               <li className="flex items-center text-white">
                 <Message2 className="h-5 w-5 mr-2" />{" "}
@@ -81,7 +81,7 @@ const Footer = () => {
             </nav>
           </div>
           <div>
-            <h2 className="mb-3 text-lg font-bold text-white">Services</h2>
+            <h2 className="mb-3 text-lg !font-bold text-white">Services</h2>
             <nav className="mb-10 list-none space-y-2 text-sm font-normal">
               {services.map(({ title, link }, index) => (
                 <li key={index}>

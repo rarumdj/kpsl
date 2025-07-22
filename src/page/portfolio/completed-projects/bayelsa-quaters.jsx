@@ -7,14 +7,36 @@ const bgClasses = [
   "bg-by_project_1",
   "bg-by_project_2",
   "bg-by_project_3",
+  "bg-by_finishing_27",
+  "bg-by_finishing_28",
+  "bg-by_finishing_23",
   "bg-by_finishing_4",
-  "bg-by_finishing_3",
+  "bg-by_finishing_17",
+  "bg-by_finishing_30",
+  "bg-by_finishing_22",
+  "bg-by_finishing_18",
+  "bg-by_finishing_29",
+  // "bg-by_finishing_26",
   "bg-by_finishing_2",
   "bg-by_finishing_1",
+  "bg-by_finishing_12",
+  "bg-by_finishing_11",
+  "bg-by_finishing_10",
+  "bg-by_finishing_9",
+  "bg-by_finishing_8",
+  "bg-by_finishing_7",
+  // "bg-by_finishing_6",
+  "bg-by_finishing_5",
   "bg-by_project_4",
   "bg-by_project_5",
   "bg-by_project_6",
-
+  "bg-by_finishing_14",
+  "bg-by_finishing_15",
+  "bg-by_finishing_16",
+  "bg-by_finishing_19",
+  "bg-by_finishing_20",
+  "bg-by_finishing_21",
+  // "bg-by_finishing_13",
   "bg-by_project_start_16",
   "bg-by_project_start_17",
   "bg-by_project_start_18",
@@ -47,9 +69,14 @@ const BayelsaQuatersProject = () => {
         </div>
 
         <div className="max-w-2xl mx-auto text-center mt-12">
-          <h2 className="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl">
-            Bayelsa State New Commissioners Quarters
+          <h2 className="text-2xl font-bold leading-tight text-gray-800 md:text-4xl">
+            Bayelsa State New Commissioners Quarters Comprising 40units of
+            5bedroom duplexes located at New Yenagoa City, Bayelsa State
           </h2>
+          {/* <p className="text-base leading-relaxed">
+            Comprising 40units of 5bedroom duplexes located at New Yenagoa City,
+            Bayelsa State
+          </p> */}
         </div>
 
         <div className="grid-cols-1 mt-12 gap-y-12 gap-x-6 grid md:grid-cols-3 gap-4 w-full text-white">
