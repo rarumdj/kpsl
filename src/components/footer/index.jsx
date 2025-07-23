@@ -50,7 +50,9 @@ const Footer = () => {
             <h2 className="mb-3 text-lg !font-bold text-white">Contact</h2>
             <nav className="mb-10 list-none space-y-2 text-sm font-normal">
               <li className="flex items-center text-white">
-                <Message2 className="h-5 w-5 mr-2" />{" "}
+                <div>
+                  <Message2 className="h-5 w-5 mr-2" />
+                </div>
                 <a
                   href="mailto:sendinfo.kpsl@gmail.com"
                   className="hover:text-gray-200 transition-colors">
@@ -58,7 +60,9 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center text-white">
-                <CallOutgoing className="h-5 w-5 mr-2" />
+                <div>
+                  <CallOutgoing className="h-5 w-5 mr-2" />
+                </div>
                 <a
                   href="tel:+2348060428456"
                   className="hover:text-gray-200 transition-colors">
@@ -72,11 +76,15 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center text-white">
-                <Location className="h-5 w-5 mr-2" />{" "}
-                <span>
-                  KPSL No 4 Bori Road Off Aba Road Port Harcourt, Rivers State
-                  Nigeria.
-                </span>
+                <div className="flex items-center gap-2">
+                  <div>
+                    <Location className="h-5 w-5 mr-2" />
+                  </div>
+                  <div className="flex flex-col">
+                    <span>National Assembly Quarters</span>
+                    <span>Zone B extension Block 4, Abuja, Nigeria.</span>
+                  </div>
+                </div>
               </li>
             </nav>
           </div>

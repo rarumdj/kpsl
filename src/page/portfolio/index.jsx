@@ -19,7 +19,7 @@ const Portfolio = () => {
       <div className="grid md:grid-cols-2 gap-8 w-full mt-12">
         <div
           onClick={() => navigate("/completed-projects")}
-          className="flex flex-col rounded-lg overflow-hidden items-center w-full max-w-full space-y-3 p-4 pb-8 bg-by_project_3 bg-center bg-cover min-h-[350px] relative group cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300">
+          className="flex flex-col rounded-lg overflow-hidden items-center w-full max-w-full space-y-3 p-4 pb-8 bg-by_project_3 bg-center bg-cover min-h-[350px] relative group cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102 hover:-translate-y-2 hover:shadow-lg">
           <div className="h-fit w-full absolute bottom-0 bg-gradient-to-t from-primary/90 to-primary/50 flex items-start">
             <div className="p-6 w-full">
               <div className="text-xl font-bold mb-2">
@@ -41,7 +41,7 @@ const Portfolio = () => {
 
         <div
           onClick={() => navigate("/upcoming-projects")}
-          className="flex flex-col rounded-lg overflow-hidden items-center w-full max-w-full space-y-3 p-4 pb-8 bg-kpsl_hotel_1 bg-center bg-cover min-h-[350px] relative group cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300">
+          className="flex flex-col rounded-lg overflow-hidden items-center w-full max-w-full space-y-3 p-4 pb-8 bg-kpsl_hotel_1 bg-center bg-cover min-h-[350px] relative group cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102 hover:-translate-y-2">
           <div className="h-fit w-full absolute bottom-0 bg-gradient-to-t from-primary/90 to-primary/50 flex items-start">
             <div className="p-6 w-full">
               <div className="text-xl font-bold mb-2">
