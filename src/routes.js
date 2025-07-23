@@ -1,5 +1,4 @@
 import CompletedProjects from "page/portfolio/completed-projects";
-import IncomingProjects from "page/portfolio/incoming-projects";
 import OngoingProjects from "page/portfolio/ongoing-projects";
 import Constructions from "components/services/Constructions";
 import EnergyService from "components/services/EnergyService";
@@ -12,6 +11,10 @@ import Home from "page/Home";
 import { Route } from "react-router-dom";
 import COZAAuditoriumProject from "page/portfolio/completed-projects/coza-auditorium";
 import BayelsaQuatersProject from "page/portfolio/completed-projects/bayelsa-quaters";
+import DurumiAbujaProject from "page/portfolio/upcoming-projects/durumi-abuja";
+import UpcomingProjects from "page/portfolio/upcoming-projects";
+import KPSLHotelProject from "page/portfolio/upcoming-projects/kpsl-hotel";
+
 const mainRoutes = [
   { path: "/", element: <Home /> },
   { path: "constructions", element: <Constructions /> },
@@ -22,12 +25,23 @@ const mainRoutes = [
   { path: "procurement", element: <ProcurementService /> },
   { path: "water-project", element: <WaterProject /> },
   { path: "ongoing-projects", element: <OngoingProjects /> },
-  { path: "incoming-projects", element: <IncomingProjects /> },
+  { path: "upcoming-projects", element: <UpcomingProjects /> },
   { path: "completed-projects", element: <CompletedProjects /> },
-  { path: "completed-projects/coza-ilorin-new-auditorium", element: <COZAAuditoriumProject /> },
+  {
+    path: "completed-projects/coza-ilorin-new-auditorium",
+    element: <COZAAuditoriumProject />,
+  },
   {
     path: "completed-projects/bayelsa-state-new-commissioners-quarters",
     element: <BayelsaQuatersProject />,
+  },
+  {
+    path: "upcoming-projects/80-units-of-6bedroom-terrace-located-at-durumi-abuja",
+    element: <DurumiAbujaProject />,
+  },
+  {
+    path: "upcoming-projects/kpsl-hotel",
+    element: <KPSLHotelProject />,
   },
 ];
 

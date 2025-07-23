@@ -116,6 +116,10 @@ module.exports = {
         coza_ilorin_33: "url(assets/image/coza/coza_33.jpeg)",
         coza_ilorin_34: "url(assets/image/coza/coza_34.jpeg)",
         coza_ilorin_35: "url(assets/image/coza/coza_35.jpeg)",
+        trace_1: "url(assets/image/durumi/trace_1.jpg)",
+        trace_2: "url(assets/image/durumi/trace_2.jpg)",
+        trace_3: "url(assets/image/durumi/trace_3.jpg)",
+        trace_4: "url(assets/image/durumi/trace_4.jpg)",
       },
 
       fontFamily: {

@@ -40,7 +40,7 @@ const Portfolio = () => {
         </div>
 
         <div
-          onClick={() => navigate("/incoming-projects")}
+          onClick={() => navigate("/upcoming-projects")}
           className="flex flex-col rounded-lg overflow-hidden items-center w-full max-w-full space-y-3 p-4 pb-8 bg-kpsl_hotel_1 bg-center bg-cover min-h-[350px] relative group cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300">
           <div className="h-fit w-full absolute bottom-0 bg-gradient-to-t from-primary/90 to-primary/50 flex items-start">
             <div className="p-6 w-full">
