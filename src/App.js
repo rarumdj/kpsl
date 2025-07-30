@@ -8,11 +8,12 @@ import {
 } from "react-router-dom";
 import { MainRoutes } from "routes";
 import Layout from "components/layout/Layout";
+import { useVersionCheck } from "hooks/useVersionCheck";
 
 function App() {
   const location = useLocation();
   const navigationType = useNavigationType();
-
+  useVersionCheck();
   useEffect(() => {
     if (navigationType === "PUSH") {
       const html = document.querySelector("html");

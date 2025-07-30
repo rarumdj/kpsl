@@ -24,14 +24,14 @@ const About = () => {
   // { path: "water-project", element: <WaterProject /> },
   return (
     <section className="pb-32 pt-12" id="about">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <img
             alt="ecommerce"
-            class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-left-bottom rounded"
+            className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-left-bottom rounded"
             src={aboutt}
           />
-          <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h1 className="text-3xl md:text-5xl font-bold text-secondary font-duplicate-san leading-tight mb-5">
               3 Decades <br className="md:block hidden" />
               <span className="text-primary font-duplicate-san">
@@ -40,15 +40,15 @@ const About = () => {
               </span>
             </h1>
 
-            <p class="leading-relaxed">
-              KPSL, a division of Gopolo Nigeria Limited, is a
-              fully indigenous and limited liability company based in Nigeria.
-              KPSL is an Engineering Procurement Contractor (EPC) company that
-              specializes in providing services to the Oil and Gas industry.
-              With over three decades of experience, KPSL has established itself
-              as a trusted name in the industry, offering a wide range of
-              services including procurement, construction, civil engineering,
-              labor/manpower supply, consultancy, and general supply. <br />
+            <p className="leading-relaxed">
+              KPSL, a division of Gopolo Nigeria Limited, is a fully indigenous
+              and limited liability company based in Nigeria. KPSL is an
+              Engineering Procurement Contractor (EPC) company that specializes
+              in providing services to the Oil and Gas industry. With over three
+              decades of experience, KPSL has established itself as a trusted
+              name in the industry, offering a wide range of services including
+              procurement, construction, civil engineering, labor/manpower
+              supply, consultancy, and general supply. <br />
               <br />
               The company prides itself on its commitment to high-quality
               standards, client satisfaction, and adherence to project
@@ -58,7 +58,7 @@ const About = () => {
         </div>
       </div>
 
-      <div class="px-5 pb-24 pt-16 mx-auto flex flex-col bg-primary">
+      <div className="px-5 pb-24 pt-16 mx-auto flex flex-col bg-primary">
         <div className="mx-auto text-center space-y-3 mb-10 max-w-xl">
           <h1 className="text-2xl md:text-4xl text-white font-duplicate-san font-bold">
             Vision & Mission
@@ -68,35 +68,44 @@ const About = () => {
             in Nigeria but in Africa.
           </p>
         </div>
-        <div class="lg:w-4/5 container mx-auto flex flex-wrap">
+        <div className="lg:w-4/5 container mx-auto flex flex-wrap">
           <img
             alt="ecommerce"
-            class="lg:w-1/2 w-full object-cover object-center rounded-xl"
+            className="lg:w-1/2 w-full object-cover object-center rounded-xl"
             src={aboutSafe}
           />
-          <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-            <p class="leading-relaxed text-white">
+          <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <p className="leading-relaxed text-white">
               KPSL provides an exceptional and meticulous services to our
               clients. We do this by helping our clients achieve their intended
               goals through a team work of an entrepreneur business
-              collaboration through world class technology.
+              collaboration through world className technology.
             </p>
 
             <div className="grid md:grid-cols-3 gap-4 w-full mt-10 text-white ">
               <div className="flex flex-col items-center w-full md:max-w-xs space-y-3 p-4 border rounded-md">
                 <OceanProtocol size="32" color="#FF8A65" />
                 <h2 className="font-bold text-lg">Integrity</h2>
-                <p className="md:text-sm text-xs text-center">Our word is our Bond, and we are completely transparent in all our dealings with our clients.</p>
+                <p className="md:text-sm text-xs text-center">
+                  Our word is our Bond, and we are completely transparent in all
+                  our dealings with our clients.
+                </p>
               </div>
               <div className="flex flex-col items-center w-full md:max-w-xs space-y-3 p-4 border rounded-md">
                 <Setting2 size="32" color="#FF8A65" />
                 <h2 className="font-bold text-lg">Innovation</h2>
-                <p className="md:text-sm text-xs text-center">We are open and constantly updated with modern innovations and technologies horizon.</p>
+                <p className="md:text-sm text-xs text-center">
+                  We are open and constantly updated with modern innovations and
+                  technologies horizon.
+                </p>
               </div>
               <div className="flex flex-col items-center w-full md:max-w-xs space-y-3 p-4 border rounded-md">
                 <MagicStar size="32" color="#FF8A65" />
                 <h2 className="font-bold text-lg text-center">Excellence</h2>
-                <p className="md:text-sm text-xs">We ensure excellence and outstanding services in all our dealings.</p>
+                <p className="md:text-sm text-xs">
+                  We ensure excellence and outstanding services in all our
+                  dealings.
+                </p>
               </div>
             </div>
           </div>
@@ -112,10 +121,10 @@ const About = () => {
             We develop comprehensive solution for each project.
           </p>
         </div>
-        <div class="lg:w-4/5 container mx-auto flex flex-wrap w-full">
+        <div className="lg:w-4/5 container mx-auto flex flex-wrap w-full">
           <div className="grid md:grid-cols-3 gap-4 w-full mt-10 text-white mx-auto">
-             {/*  */}
-             <div className="flex flex-col items-center w-full max-w-xs space-y-3 p-4 pb-8 mx-auto bg-white rounded-md">
+            {/*  */}
+            <div className="flex flex-col items-center w-full max-w-xs space-y-3 p-4 pb-8 mx-auto bg-white rounded-md">
               <div className="bg-construction bg-center bg-cover min-h-[155px] w-full rounded-lg relative">
                 <div className="absolute left-1/2 transform -translate-x-1/2 translate-y-4 bottom-0">
                   <div
@@ -182,7 +191,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-           
+
             {/*  */}
             <div className="flex flex-col items-center w-full max-w-xs space-y-3 p-4 pb-8 mx-auto bg-white rounded-md">
               <div className="bg-water_project bg-center bg-cover min-h-[155px] w-full rounded-lg relative">

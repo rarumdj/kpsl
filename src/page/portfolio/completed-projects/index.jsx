@@ -20,7 +20,7 @@ const CompletedProjects = () => {
         </div>
 
         <div>
-          <div class="mx-auto flex flex-wrap">
+          <div className="mx-auto flex flex-wrap">
             <div className="grid md:grid-cols-3 gap-4 w-full mt-10 text-white">
               <div
                 onClick={() =>
