@@ -4,7 +4,7 @@ const Portfolio = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="pb-32 container mx-auto md:px-0 px-4" id="projects">
+    <section className="pb-32 pt-20 container mx-auto md:px-0 px-4" id="projects">
       <div className="mx-auto text-center space-y-4 mb-12 max-w-3xl ">
         <h1 className="text-3xl md:text-5xl text-primary font-duplicate-san font-bold">
           Our Project Portfolio

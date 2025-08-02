@@ -23,7 +23,7 @@ const About = () => {
   // { path: "procurement", element: <ProcurementService /> },
   // { path: "water-project", element: <WaterProject /> },
   return (
-    <section className="pb-32 pt-12" id="about">
+    <section className="pt-12" id="about">
       <div className="container px-5 py-24 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <img

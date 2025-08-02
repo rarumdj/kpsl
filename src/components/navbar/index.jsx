@@ -60,13 +60,19 @@ const Navbar = () => {
               <NavLink className="cursor-pointer hover:text-primary" to="/">
                 Home
               </NavLink>
-              <a className="cursor-pointer hover:text-primary" href="#services">
-                Services
-              </a>
               <a
                 className="flex cursor-pointer items-center hover:text-primary"
                 href="#about">
-                About Us
+                About us
+              </a>
+              <a className="cursor-pointer hover:text-primary" href="#services">
+                Services
+              </a>
+              <a className="cursor-pointer hover:text-primary" href="#clients">
+                Clients
+              </a>
+              <a className="cursor-pointer hover:text-primary" href="#projects">
+                Projects
               </a>
             </nav>
           </div>
@@ -101,15 +107,26 @@ const Navbar = () => {
                   Home
                 </NavLink>
                 <a
+                  className="flex cursor-pointer items-center hover:text-primary"
+                  href="#about">
+                  About us
+                </a>
+                <a
                   className="cursor-pointer hover:text-primary"
                   href="#services">
                   Services
                 </a>
                 <a
-                  className="flex cursor-pointer items-center hover:text-primary"
-                  href="#about">
-                  About Us
+                  className="cursor-pointer hover:text-primary"
+                  href="#clients">
+                  Clients
                 </a>
+                <a
+                  className="cursor-pointer hover:text-primary"
+                  href="#projects">
+                  Projects
+                </a>
+
                 <div className="!mt-10 space-y-4">
                   <a
                     href="#contact"
