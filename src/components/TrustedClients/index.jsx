@@ -7,20 +7,21 @@ import joenyLogo from "../../assets/image/clients/joeny.jpg";
 
 const TrustedClients = () => {
   const clients = [
+    { name: "Joeny", logo: joenyLogo },
     { name: "AOS", logo: aosLogo },
     { name: "Bayelsa", logo: bayelsaLogo },
     { name: "COZA", logo: cozaLogo },
     { name: "FHA", logo: fhaLogo },
-    { name: "Joeny", logo: joenyLogo },
   ];
 
   return (
     <section className="py-16 bg-gray-50" id="clients">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          <h2 className="text-3xl md:text-4xl font-duplicate-san font-bold text-gray-800 mb-4">
             Trusted by Leading Organizations
           </h2>
+
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             We are proud to work with esteemed clients across various sectors,
             delivering exceptional results and building lasting partnerships.
@@ -35,7 +36,7 @@ const TrustedClients = () => {
               <img
                 src={client.logo}
                 alt={`${client.name} logo`}
-                className="max-w-[80%] max-h-[60%] object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                className="max-w-[80%] max-h-[60%] object-contain filter transition-all duration-300"
               />
               <div className="absolute inset-0 bg-blue-600 bg-opacity-0 group-hover:bg-opacity-5 rounded-lg transition-all duration-300"></div>
             </div>
