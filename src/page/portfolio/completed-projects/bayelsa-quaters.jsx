@@ -15,7 +15,6 @@ const bgClasses = [
   "bg-by_finishing_30",
   "bg-by_finishing_22",
   "bg-by_finishing_18",
-  "bg-by_finishing_29",
   // "bg-by_finishing_26",
   "bg-by_finishing_2",
   "bg-by_finishing_1",
@@ -55,6 +54,8 @@ const bgClasses = [
   "bg-by_project_start_15",
   "bg-by_project_start_19",
   "bg-by_project_start_21",
+  "bg-by_finishing_29",
+
 ];
 
 const BayelsaQuatersProject = () => {

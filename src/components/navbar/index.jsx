@@ -62,16 +62,16 @@ const Navbar = () => {
               </NavLink>
               <a
                 className="flex cursor-pointer items-center hover:text-primary"
-                href="#about">
+                href="/#about">
                 About us
               </a>
-              <a className="cursor-pointer hover:text-primary" href="#services">
+              <a className="cursor-pointer hover:text-primary" href="/#services">
                 Services
               </a>
-              <a className="cursor-pointer hover:text-primary" href="#clients">
+              <a className="cursor-pointer hover:text-primary" href="/#clients">
                 Clients
               </a>
-              <a className="cursor-pointer hover:text-primary" href="#projects">
+              <a className="cursor-pointer hover:text-primary" href="/#projects">
                 Projects
               </a>
             </nav>
@@ -108,22 +108,22 @@ const Navbar = () => {
                 </NavLink>
                 <a
                   className="flex cursor-pointer items-center hover:text-primary"
-                  href="#about">
+                  href="/#about">
                   About us
                 </a>
                 <a
                   className="cursor-pointer hover:text-primary"
-                  href="#services">
+                  href="/#services">
                   Services
                 </a>
                 <a
                   className="cursor-pointer hover:text-primary"
-                  href="#clients">
+                  href="/#clients">
                   Clients
                 </a>
                 <a
                   className="cursor-pointer hover:text-primary"
-                  href="#projects">
+                  href="/#projects">
                   Projects
                 </a>
 

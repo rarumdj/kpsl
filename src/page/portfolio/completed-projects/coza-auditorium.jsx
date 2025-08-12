@@ -15,7 +15,12 @@ const bgClasses = [
   "bg-coza_ilorin_22",
   "bg-coza_ilorin_21",
   "bg-coza_ilorin_20",
+  "bg-coza_ilorin_36",
+  "bg-coza_ilorin_37",
+  "bg-coza_ilorin_38",
   "bg-coza_ilorin_19",
+  "bg-coza_ilorin_39",
+  "bg-coza_ilorin_41",
   "bg-coza_ilorin_28",
   "bg-coza_ilorin_27",
   "bg-coza_ilorin_29",
@@ -40,6 +45,14 @@ const bgClasses = [
   "bg-coza_ilorin_3",
   "bg-coza_ilorin_2",
   "bg-coza_ilorin_1",
+
+  "bg-coza_ilorin_40",
+  "bg-coza_ilorin_42",
+  "bg-coza_ilorin_43",
+  "bg-coza_ilorin_44",
+  "bg-coza_ilorin_45",
+  "bg-coza_ilorin_46",
+  "bg-coza_ilorin_47",
 ];
 
 const COZAAuditoriumProject = () => {

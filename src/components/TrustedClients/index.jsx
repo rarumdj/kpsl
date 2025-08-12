@@ -45,7 +45,7 @@ const TrustedClients = () => {
 
         <div className="text-center mt-12">
           <p className="text-sm text-gray-500">
-            Trusted partners in construction, energy, and infrastructure
+            Trusted partners in construction, oil and gas, energy, and infrastructure
             development
           </p>
         </div>
