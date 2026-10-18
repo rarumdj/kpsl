@@ -66,13 +66,15 @@ const stages = [
       "bg-by_finishing_5",
       "bg-by_finishing_7",
       "bg-by_finishing_8",
+      "bg-by_post_clean_33",
+      "bg-by_post_clean_2",
+      "bg-by_post_clean_21",
     ],
   },
   {
     title: "After post construction cleaning and lighting fittings",
     photos: [
       "bg-by_post_clean_1",
-      "bg-by_post_clean_2",
       "bg-by_post_clean_3",
       "bg-by_post_clean_4",
       "bg-by_post_clean_5",
@@ -91,7 +93,6 @@ const stages = [
       "bg-by_post_clean_18",
       "bg-by_post_clean_19",
       "bg-by_post_clean_20",
-      "bg-by_post_clean_21",
       "bg-by_post_clean_22",
       "bg-by_post_clean_23",
       "bg-by_post_clean_24",
@@ -103,7 +104,6 @@ const stages = [
       "bg-by_post_clean_30",
       "bg-by_post_clean_31",
       "bg-by_post_clean_32",
-      "bg-by_post_clean_33",
     ],
   },
 ];
