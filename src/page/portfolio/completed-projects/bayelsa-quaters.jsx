@@ -3,59 +3,109 @@ import { ArrowLeft } from "iconsax-react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const bgClasses = [
-  "bg-by_project_1",
-  "bg-by_project_2",
-  "bg-by_project_3",
-  "bg-by_finishing_27",
-  "bg-by_finishing_28",
-  "bg-by_finishing_23",
-  "bg-by_finishing_4",
-  "bg-by_finishing_17",
-  "bg-by_finishing_30",
-  "bg-by_finishing_22",
-  "bg-by_finishing_18",
-  // "bg-by_finishing_26",
-  "bg-by_finishing_2",
-  "bg-by_finishing_1",
-  "bg-by_finishing_12",
-  "bg-by_finishing_11",
-  "bg-by_finishing_10",
-  "bg-by_finishing_9",
-  "bg-by_finishing_8",
-  "bg-by_finishing_7",
-  // "bg-by_finishing_6",
-  "bg-by_finishing_5",
-  "bg-by_project_4",
-  "bg-by_project_5",
-  "bg-by_project_6",
-  "bg-by_finishing_14",
-  "bg-by_finishing_15",
-  "bg-by_finishing_16",
-  "bg-by_finishing_19",
-  "bg-by_finishing_20",
-  "bg-by_finishing_21",
-  // "bg-by_finishing_13",
-  "bg-by_project_start_16",
-  "bg-by_project_start_17",
-  "bg-by_project_start_18",
-  "bg-by_project_start_20",
-  "bg-by_project_start_1",
-  "bg-by_project_start_2",
-  "bg-by_project_start_3",
-  "bg-by_project_start_5",
-  "bg-by_project_start_6",
-  "bg-by_project_start_8",
-  "bg-by_project_start_9",
-  "bg-by_project_start_10",
-  "bg-by_project_start_11",
-  "bg-by_project_start_12",
-  "bg-by_project_start_14",
-  "bg-by_project_start_15",
-  "bg-by_project_start_19",
-  "bg-by_project_start_21",
-  "bg-by_finishing_29",
-
+const stages = [
+  {
+    title: "Architectural design",
+    photos: ["bg-by_project_1", "bg-by_project_2", "bg-by_project_3"],
+  },
+  {
+    title: "Groundbreaking",
+    photos: [
+      "bg-by_finishing_29",
+      "bg-by_project_start_1",
+      "bg-by_project_start_2",
+      "bg-by_project_start_3",
+      "bg-by_project_start_5",
+      "bg-by_project_start_6",
+      "bg-by_project_start_8",
+      "bg-by_project_start_9",
+      "bg-by_project_start_10",
+      "bg-by_project_start_11",
+      "bg-by_project_start_12",
+      "bg-by_project_start_14",
+      "bg-by_project_start_15",
+      "bg-by_project_start_16",
+      "bg-by_project_start_17",
+      "bg-by_project_start_18",
+      "bg-by_project_start_19",
+      "bg-by_project_start_20",
+      "bg-by_project_start_21",
+    ],
+  },
+  {
+    title: "Construction",
+    photos: [
+      "bg-by_project_4",
+      "bg-by_project_5",
+      "bg-by_project_6",
+      "bg-by_finishing_14",
+      "bg-by_finishing_15",
+      "bg-by_finishing_16",
+      "bg-by_finishing_19",
+      "bg-by_finishing_20",
+      "bg-by_finishing_21",
+      "bg-by_finishing_9",
+      "bg-by_finishing_11",
+      "bg-by_finishing_12",
+      "bg-by_finishing_1",
+      "bg-by_finishing_10",
+    ],
+  },
+  {
+    title: "Finishing",
+    photos: [
+      "bg-by_finishing_27",
+      "bg-by_finishing_28",
+      "bg-by_finishing_23",
+      "bg-by_finishing_4",
+      "bg-by_finishing_17",
+      "bg-by_finishing_30",
+      "bg-by_finishing_22",
+      "bg-by_finishing_18",
+      "bg-by_finishing_2",
+      "bg-by_finishing_5",
+      "bg-by_finishing_7",
+      "bg-by_finishing_8",
+    ],
+  },
+  {
+    title: "After post construction cleaning and lighting fittings",
+    photos: [
+      "bg-by_post_clean_1",
+      "bg-by_post_clean_2",
+      "bg-by_post_clean_3",
+      "bg-by_post_clean_4",
+      "bg-by_post_clean_5",
+      "bg-by_post_clean_6",
+      "bg-by_post_clean_7",
+      "bg-by_post_clean_8",
+      "bg-by_post_clean_9",
+      "bg-by_post_clean_10",
+      "bg-by_post_clean_11",
+      "bg-by_post_clean_12",
+      "bg-by_post_clean_13",
+      "bg-by_post_clean_14",
+      "bg-by_post_clean_15",
+      "bg-by_post_clean_16",
+      "bg-by_post_clean_17",
+      "bg-by_post_clean_18",
+      "bg-by_post_clean_19",
+      "bg-by_post_clean_20",
+      "bg-by_post_clean_21",
+      "bg-by_post_clean_22",
+      "bg-by_post_clean_23",
+      "bg-by_post_clean_24",
+      "bg-by_post_clean_25",
+      "bg-by_post_clean_26",
+      "bg-by_post_clean_27",
+      "bg-by_post_clean_28",
+      "bg-by_post_clean_29",
+      "bg-by_post_clean_30",
+      "bg-by_post_clean_31",
+      "bg-by_post_clean_32",
+      "bg-by_post_clean_33",
+    ],
+  },
 ];
 
 const BayelsaQuatersProject = () => {
@@ -74,21 +124,24 @@ const BayelsaQuatersProject = () => {
             Bayelsa State New Commissioners Quarters Comprising 40units of
             5bedroom duplexes located at New Yenagoa City, Bayelsa State
           </h2>
-          {/* <p className="text-base leading-relaxed">
-            Comprising 40units of 5bedroom duplexes located at New Yenagoa City,
-            Bayelsa State
-          </p> */}
         </div>
 
-        <div className="grid-cols-1 mt-12 gap-y-12 gap-x-6 grid md:grid-cols-3 gap-4 w-full text-white">
-          {bgClasses.map((bg, idx) => (
-            <div
-              key={idx}
-              className={`flex flex-col items-center w-full max-w-full space-y-3 p-4 pb-8 ${bg} bg-center bg-cover min-h-[300px] relative transition duration-300 ease-out hover:scale-102 hover:-translate-y-2 rounded-md`}>
-              <div className="h-fit w-full absolute bottom-0 bg-primary/70 flex items-start"></div>
+        {[...stages].reverse().map((stage) => (
+          <div key={stage.title}>
+            <h3 className="mt-12 text-xl font-bold leading-tight text-gray-800 md:text-2xl text-center">
+              {stage.title}
+            </h3>
+            <div className="grid-cols-1 mt-8 gap-y-12 gap-x-6 grid md:grid-cols-3 gap-4 w-full text-white">
+              {stage.photos.map((bg) => (
+                <div
+                  key={bg}
+                  className={`flex flex-col items-center w-full max-w-full space-y-3 p-4 pb-8 ${bg} bg-center bg-cover min-h-[300px] relative transition duration-300 ease-out hover:scale-102 hover:-translate-y-2 rounded-md`}>
+                  <div className="h-fit w-full absolute bottom-0 bg-primary/70 flex items-start"></div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );
