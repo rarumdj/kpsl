@@ -78,7 +78,6 @@ const stages = [
       "bg-by_post_clean_35",
       "bg-by_post_clean_3",
       "bg-by_post_clean_4",
-      "bg-by_post_clean_8",
       "bg-by_post_clean_11",
       "bg-by_post_clean_12",
       "bg-by_post_clean_15",
@@ -91,7 +90,6 @@ const stages = [
       "bg-by_post_clean_29",
       "bg-by_post_clean_30",
       "bg-by_post_clean_31",
-      "bg-by_post_clean_32",
     ],
   },
 ];
