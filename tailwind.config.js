@@ -96,6 +96,8 @@ module.exports = {
         by_post_clean_31: "url(assets/image/bayelsa/by_post_clean_31.jpg)",
         by_post_clean_32: "url(assets/image/bayelsa/by_post_clean_32.jpg)",
         by_post_clean_33: "url(assets/image/bayelsa/by_post_clean_33.jpg)",
+        by_post_clean_34: "url(assets/image/bayelsa/by_post_clean_34.jpg)",
+        by_post_clean_35: "url(assets/image/bayelsa/by_post_clean_35.jpg)",
         kpsl_hotel_1: "url(assets/image/hv1.jpeg)",
         kpsl_hotel_2: "url(assets/image/hv2.jpeg)",
         kpsl_hotel_3: "url(assets/image/hv3.jpeg)",

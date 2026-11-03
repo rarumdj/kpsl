@@ -4,6 +4,8 @@ import bayelsaLogo from "../../assets/image/clients/bayelsa.jpg";
 import cozaLogo from "../../assets/image/clients/coza.jpg";
 import fhaLogo from "../../assets/image/clients/fha.jpg";
 import joenyLogo from "../../assets/image/clients/joeny.jpg";
+import familyHomesFundsLogo from "../../assets/image/clients/family-homes-funds.png";
+import jrbLogo from "../../assets/image/clients/jrb.jpg";
 
 const TrustedClients = () => {
   const clients = [
@@ -12,6 +14,8 @@ const TrustedClients = () => {
     { name: "Bayelsa", logo: bayelsaLogo },
     { name: "COZA", logo: cozaLogo },
     { name: "FHA", logo: fhaLogo },
+    { name: "Family Homes Funds", logo: familyHomesFundsLogo },
+    { name: "JRB Construction Company Limited", logo: jrbLogo },
   ];
 
   return (
@@ -28,15 +32,15 @@ const TrustedClients = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center">
+        <div className="flex flex-wrap items-center justify-center gap-8">
           {clients.map((client, index) => (
             <div
               key={index}
-              className="group relative w-full max-w-[200px] h-24 flex items-center justify-center bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+              className="group relative w-[160px] sm:w-[190px] h-28 flex items-center justify-center bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               <img
                 src={client.logo}
                 alt={`${client.name} logo`}
-                className="max-w-[80%] max-h-[60%] object-contain filter transition-all duration-300"
+                className="max-w-[80%] max-h-[75%] object-contain filter transition-all duration-300"
               />
               <div className="absolute inset-0 bg-blue-600 bg-opacity-0 group-hover:bg-opacity-5 rounded-lg transition-all duration-300"></div>
             </div>

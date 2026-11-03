@@ -74,6 +74,8 @@ const stages = [
   {
     title: "After post construction cleaning and lighting fittings",
     photos: [
+      "bg-by_post_clean_34",
+      "bg-by_post_clean_35",
       "bg-by_post_clean_3",
       "bg-by_post_clean_4",
       "bg-by_post_clean_8",
